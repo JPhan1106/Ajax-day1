@@ -1,0 +1,52 @@
+/* Define the grid container */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three columns with equal width */
+    grid-gap: 30px; /* Gap between grid items */
+  }
+
+  /* Style for grid items */
+  .grid-item {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  #products {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* CSS for each product item */
+  .product-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+  }
+  
+  /* CSS for product name */
+  .product-name {
+    flex: 3;
+  }
+  
+  /* CSS for update button */
+  .update-button {
+    margin-right: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  /* CSS for remove button */
+  .remove-button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
